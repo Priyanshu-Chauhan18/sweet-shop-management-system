@@ -4,6 +4,8 @@ A modern, premium e-commerce platform for luxury sweets and chocolates. Built wi
 
 **Created by Priyanshu Chauhan**
 
+🔗 **GitHub Repository**: [https://github.com/Priyanshu-Chauhan18/Sweet-Luxe](https://github.com/Priyanshu-Chauhan18/Sweet-Luxe)
+
 ---
 
 ## Overview
@@ -18,6 +20,26 @@ Sweet Luxe is a full-stack e-commerce application featuring:
 
 ---
 
+## Screenshots
+
+### Home Page
+![Home Page](https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Screenshot-2025-12-14-at-21.34.41-1765728570981.png?width=8000&height=8000&resize=contain)
+*Landing page featuring premium sweets and chocolates collection*
+
+### Login Page
+![Login Page](https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Screenshot-2025-12-14-at-21.36.43-1765728585336.png?width=8000&height=8000&resize=contain)
+*Secure authentication with email/password and Google OAuth*
+
+### Register Page
+![Register Page](https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Screenshot-2025-12-14-at-21.36.36-1765728574623.png?width=8000&height=8000&resize=contain)
+*User registration form with elegant dark theme*
+
+### Dashboard
+![Dashboard](https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Screenshot-2025-12-14-at-21.37.49-1765728575487.png?width=8000&height=8000&resize=contain)
+*Browse and purchase products with real-time inventory*
+
+---
+
 ## Tech Stack
 
 | Technology | Purpose |
@@ -28,6 +50,60 @@ Sweet Luxe is a full-stack e-commerce application featuring:
 | **Supabase** | Backend (Auth, Database, Storage) |
 | **Shadcn/UI** | UI component library |
 | **Lucide React** | Icon library |
+
+---
+
+## Test Report
+
+### Running Tests
+
+```bash
+npm run test
+# or
+npm run test:watch
+```
+
+### Test Coverage
+
+The application includes tests for:
+- **API Routes**: All `/api/sweets`, `/api/auth`, and `/api/admin` endpoints
+- **Authentication Flow**: Login, register, logout, password reset
+- **Product Management**: CRUD operations for sweets/chocolates
+- **Purchase Flow**: Stock management and transaction handling
+- **Admin Features**: Product creation, updates, and deletion
+
+Test results are generated in `./test-results/` directory.
+
+---
+
+## My AI Usage
+
+### AI Tools Used
+
+During the development of Sweet Luxe, I utilized **Orchids AI** as my primary development assistant:
+
+#### How AI Helped:
+1. **Code Refactoring**: Transformed the entire codebase from a basic template to a production-ready platform
+2. **UI/UX Design**: Generated the premium dark theme with purple accents, animations, and glassmorphic effects
+3. **Component Architecture**: Helped structure React components following Next.js 15 best practices
+4. **API Development**: Assisted in creating RESTful API routes with proper error handling
+5. **Authentication**: Guided implementation of Supabase Auth with email and OAuth providers
+6. **Database Schema**: Designed and optimized database tables and relationships
+7. **Security Practices**: Ensured proper environment variable usage and secret management
+8. **Documentation**: Generated comprehensive README with setup instructions
+
+#### AI Limitations & Human Contributions:
+- **Business Logic**: All product categorization and pricing strategies were human-decided
+- **Design Decisions**: Color schemes and branding were manually refined after AI suggestions
+- **Testing**: Manual testing and edge case identification were human-driven
+- **Environment Configuration**: Supabase project setup and credential management done manually
+- **Deployment**: Production deployment decisions and optimizations were human-executed
+
+#### Responsible AI Usage:
+- AI was used as a **productivity tool**, not a replacement for understanding
+- All AI-generated code was **reviewed, tested, and validated** before integration
+- Security-sensitive code (authentication, payment handling) was **manually audited**
+- AI suggestions were **critically evaluated** rather than blindly accepted
 
 ---
 
